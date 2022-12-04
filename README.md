@@ -168,19 +168,19 @@ confusion_matrix(test_image_gen.classes,predictions)
 ```
 ## Output:
 
-Training Loss, Validation Loss Vs Iteration Plot
+## Training Loss, Validation Loss Vs Iteration Plot
 
 ![mini nn1](https://user-images.githubusercontent.com/112338645/205492001-1d2818f2-6661-4bf0-978d-76ff4a40c50c.png)
 
-Classification Report
+## Classification Report
 
 ![mini nn2](https://user-images.githubusercontent.com/112338645/205492090-181a3d17-08ea-45cc-867f-a232f2a329c0.png)
 
-Confusion Matrix
+## Confusion Matrix
 
 ![mini nn2](https://user-images.githubusercontent.com/112338645/205492034-2ff4c9cd-a925-4a9e-8a8c-a0c1d1ae5c59.png)
 
-Sample Data Prediction
+## Sample Data Prediction
 
 ![mini nn4](https://user-images.githubusercontent.com/112338645/205492110-646225ea-ed4a-4ab5-a674-fc49115612b9.png)
 
