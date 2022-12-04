@@ -1,11 +1,19 @@
 # Mini-Project--Application-of-NN
+
 (Expected the following details in the report )
+
 ## Project Title:
+
 Deep Neural Network for Malaria Infected Cell Recognition
+
 ## Project Description 
+
 To develop a deep neural network for Malaria infected cell recognition and to analyze the performance.
+
 ## Algorithm:
-To develop a deep neural network for Malaria infected cell recognition and to analyze the performance. Use ImageDataGenerator to augment the data and flow the data directly from the dataset directory to the model. Split the data into train and test. Build the convolutional neural network Train the model with training data Evaluate the model with the testing data Evaluate the model with the testing data
+
+To develop a deep neural network for Malaria infected cell recognition and to analyze the performance. Use ImageDataGenerator to augment the data and flow the data directly from the dataset directory to the model. Split the data into train and test. Build the convolutional neural network Train the model with training data Evaluate the model with the testing data Evaluate the model with the testing data.
+
 ## Program:
 ```python
 import os
@@ -159,15 +167,27 @@ print(classification_report(test_image_gen.classes,predictions))
 confusion_matrix(test_image_gen.classes,predictions)
 ```
 ## Output:
+
 Training Loss, Validation Loss Vs Iteration Plot
+
 ![mini nn1](https://user-images.githubusercontent.com/112338645/205492001-1d2818f2-6661-4bf0-978d-76ff4a40c50c.png)
+
 Classification Report
+
 ![mini nn2](https://user-images.githubusercontent.com/112338645/205492090-181a3d17-08ea-45cc-867f-a232f2a329c0.png)
+
 Confusion Matrix
+
 ![mini nn2](https://user-images.githubusercontent.com/112338645/205492034-2ff4c9cd-a925-4a9e-8a8c-a0c1d1ae5c59.png)
+
 Sample Data Prediction
+
 ![mini nn4](https://user-images.githubusercontent.com/112338645/205492110-646225ea-ed4a-4ab5-a674-fc49115612b9.png)
+
 ## Advantage :
+
 Helps in recognizing the malaria cell
+
 ## Result:
+
 Thus, successfully implemented convolutional neural network model for Malaria Infected Cell Regonition.
